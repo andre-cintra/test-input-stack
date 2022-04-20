@@ -12,4 +12,11 @@ inputs:
     name: global_input
     default: the_global_input
     global: true
+  - label: Computed input
+    type: text
+    name: computed_input
+    default: computed_input_value
+computed-inputs:
+  computed_input_new: "{{inputs.computed_input|replace('_', '-')|upper}}"
+  
   
