@@ -7,3 +7,9 @@ inputs:
     type: text
     name: project_name
     default: project-name
+  - label: Global input
+    type: text
+    name: global_input
+    default: the_global_input
+    global: true
+  

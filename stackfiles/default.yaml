@@ -1,0 +1,7 @@
+type: app
+description: Describe your stackfile explaining its purpose
+template: test-input-stack/input-template
+inputs:
+  global_input: Stackfile_global_input
+plugins:
+- plugin: test-input-stack/input_plugin
