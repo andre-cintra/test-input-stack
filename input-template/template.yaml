@@ -18,5 +18,7 @@ inputs:
     default: computed_input_value
 computed-inputs:
   computed_input_new: "{{inputs.computed_input|replace('_', '-')|upper}}"
+global-computed-inputs:
+  global_computed_input: "{{inputs.computed_input|replace('_', '-')|title }}"
   
   
