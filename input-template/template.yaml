@@ -19,6 +19,8 @@ inputs:
 computed-inputs:
   computed_input_new: "{{inputs.computed_input|replace('_', '-')|upper}}"
 global-computed-inputs:
-  global_computed_input: "{{inputs.computed_input|replace('_', '-')|title }}"
+  - global_computed_input: "{{inputs.computed_input|replace('_', '-')|title }}"
+  - global_computed_input_2: "{{inputs.computed_input|replace('_', '-')|upper }}"
+  - global_computed_input_3: "{{inputs.computed_input|replace('a', 'e')|upper }}"
   
   
